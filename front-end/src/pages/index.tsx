@@ -1,24 +1,10 @@
-import Head from "next/head";
-
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
+import { Seo } from "@/ui/components/seo";
 
 export default function Home() {
 	return (
 		<>
-			<Head>
-				<title>Coders Monkey</title>
-				<meta
-					name="description"
-					content="Coders Monkey"
-					/>
-				<meta
-					name="viewport"
-					content="width=device-width, initial-scale=1"
-				/>
-				<link rel="icon" href="/favicon.ico"/>
-			</Head>
+			<Seo title="Coders Monkey" description="description Coders Monkey" />
+			<h1>Coders Monkey webb app</h1>
 		</>
 	);
 }
