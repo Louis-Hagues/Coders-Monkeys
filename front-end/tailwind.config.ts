@@ -4,6 +4,11 @@ const config: Config = {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
 	extend: {
+		borderRadius: {
+			DEFAULT: '10px',
+			full: '9999px',
+		},
+
 		colors: {
 			white: "#ffffff",
 			primary: {
